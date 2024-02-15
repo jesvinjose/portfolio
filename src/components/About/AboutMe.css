@@ -1,0 +1,38 @@
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-me__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-me__content {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column for smaller screens */
+  align-items: center;
+  text-align: center; /* Center align text */
+}
+
+.about-me__image-container {
+  margin-bottom: 20px; /* Add margin at the bottom of the image container */
+}
+
+.about-me__image {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.about-me__text {
+  width: 100%; /* Set text width to 100% */
+  max-width: 600px; /* Limit text width for larger screens */
+  text-align: left;
+}
+
+.about-me__content p {
+  margin-bottom: 15px;
+}
+
