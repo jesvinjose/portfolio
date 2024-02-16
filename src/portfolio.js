@@ -114,7 +114,7 @@ const projects = [
   },
   
   {
-    name: 'Calcular App',
+    name: 'Calculator App',
     description:
       'This application calculates basic mathematical operations like addition, subtraction etc.',
     stack: ['JavaScript', 'React'],
