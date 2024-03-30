@@ -17,6 +17,7 @@ import projectBG6 from './components/assets/project-6-bg.png'
 import projectBG7 from './components/assets/project-7-bg.png'
 import projectBG8 from './components/assets/project-8-bg.png'
 import projectBG9 from './components/assets/project-9-bg.png'
+import projectBG10 from './components/assets/project-10-bg.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -121,6 +122,15 @@ const projects = [
     sourceCode: 'https://github.com/jesvinjose/calculator',
     livePreview: 'https://65cd18f131cf511c6c583bd0--storied-clafoutis-6093da.netlify.app/',
     background:projectBG5
+  },
+    {
+    name: 'meme Generator',
+    description:
+      'This is a meme generator application that displays different memes for each button click',
+    stack: ['JavaScript', 'React'],
+    sourceCode: 'https://github.com/jesvinjose/memeGenerator',
+    livePreview: 'https://6607931875d7e1a1de3c84f6--cerulean-sunburst-9bb534.netlify.app/',
+    background:projectBG10
   },
 
 ]
